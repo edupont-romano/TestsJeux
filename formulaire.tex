@@ -1,0 +1,47 @@
+\documentclass[11pt,a4paper]{letter}
+\usepackage{hyperref}
+\usepackage{wasysym}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{vert}{RGB}{0,155,0}
+\definecolor{orange}{RGB}{255,100,0}
+\usepackage[margin=0.2in]{geometry}
+\pagestyle{empty}
+
+\newcommand\checkbox[1]{%
+    \Square\ #1\quad%
+}
+\newcommand{\note}[1]{
+#1\\
+\textcolor{red}{\checkbox{0}} \textcolor{red}{\checkbox{1}} \textcolor{red}{\checkbox{2}}  \textcolor{orange}	{\checkbox{3}}  \textcolor{orange}{\checkbox{4}}  \textcolor{orange}{\checkbox{5}} 	\checkbox{6} \checkbox{7} \textcolor{vert}{\checkbox{8}} \textcolor{vert}{\checkbox{9}} 	\textcolor{vert}{\checkbox{10}}\\
+}
+
+\newcommand{\points}{…………………………………………………………………………\\}
+\newcommand{\pointsmultilines}{\\\points\points\points\points\points\points}
+
+\begin{document}
+
+Pour remplir ce questionnaire, merci de mettre une note de 0 à 10 à chaque question. 0 signifie \textit{Pas Du tout}, 10 signifie \textit{Complètement}.
+
+Titre du jeu:\points
+Date :\points
+Email : \points
+Nombre de joueurs : \points
+
+\note{J'ai trouvé le titre pertinent:}
+\note{J'ai aimé l'univers:}
+\note{Le jeu est fluide:}
+\note{J'ai eu plaisir à jouer:}
+\note{J'ai envie d'y rejouer:}
+\note{J'aurai envie de l'acheter:}
+\note{J'ai envie de faire découvrir ce jeu autour de moi:}
+\note{Je trouve la difficulté de ce jeu conforme à ce que j'attends:}
+\note{Les règles sont lisibles:}
+\note{Les règles sont claires:}
+\note{Les tours ont une durée correcte:}
+\note{Le temps entre les tours est correcte:}
+\note{J'ai aimé le jeu:}
+\note{Je trouve ce jeu original:}
+J'ai aimé: \pointsmultilines
+Je n'ai pas aimé:\pointsmultilines
+Remarques:\pointsmultilines
+\end{document}
