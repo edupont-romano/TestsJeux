@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.2)  16 JAN 2022 21:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.2)  13 MAR 2022 12:31
 entering extended mode
 **./formulaire.tex
 (formulaire.tex
@@ -232,7 +232,8 @@ end\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count181
 \l__pdf_internal_box=\box45
-) (formulaire.aux)
+)
+No file formulaire.aux.
 \openout1 = `formulaire.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -271,7 +272,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 21.
 LaTeX Info: Redefining \pageref on input line 21.
 LaTeX Info: Redefining \nameref on input line 21.
- (formulaire.out) (formulaire.out)
 \@outlinefile=\write3
 \openout3 = `formulaire.out'.
 
@@ -343,27 +343,34 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 30
 m\uwasy.fd"
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--47
+Underfull \hbox (badness 10000) in paragraph at lines 30--48
 
  []
 
 [1
 
 {C:/Users/Air 1 (mon amour)/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 47.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 48.
  (formulaire.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
-Package rerunfilecheck Info: File `formulaire.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
+
+
+Package rerunfilecheck Warning: File `formulaire.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `formulaire.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 6011 strings out of 480790
- 93797 string characters out of 2889764
- 375223 words of memory out of 3000000
+ 6005 strings out of 480790
+ 93635 string characters out of 2889764
+ 375142 words of memory out of 3000000
  21949 multiletter control sequences out of 15000+200000
  536080 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -372,7 +379,7 @@ Here is how much of TeX's memory you used:
 wasy/dpi657\wasy10.pk><C:/Users/Air 1 (mon amour)/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Air 1 (mon amour)/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on formulaire.pdf (1 page, 34105 bytes).
+Output written on formulaire.pdf (1 page, 34216 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
